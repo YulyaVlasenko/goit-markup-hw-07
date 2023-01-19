@@ -1,0 +1,31 @@
+.member-card {
+    background-color: var(--background-color-main);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.member-card__photo {
+    width: 270px;
+}
+
+.member-card__control {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.member-card__meta {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.188;
+    letter-spacing: 0.03em;
+}
+
+.member-card__meta--name {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.member-card__meta--post {
+    color: var(--color-secondary);
+    margin-bottom: 16px;
+}

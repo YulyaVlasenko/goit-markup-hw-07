@@ -1,0 +1,28 @@
+.duty-card {
+    position: relative;
+}
+
+.duty-card__image {
+    width: 370px;
+}
+
+.duty-card__meta {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1, 143;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-action);
+
+    background-color: rgba(47, 48, 58, 0.8);
+
+    
+    height: 70px;
+    @include centredFlex();
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}

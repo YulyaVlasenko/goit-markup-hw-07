@@ -1,0 +1,14 @@
+/* Team */
+
+.team {
+    background-color: var(--background-color-light);
+    padding-top: 94px;
+}
+
+.team__card-set {
+    display: flex;
+}
+
+.team .member-card + .member-card {
+    margin-left: 30px;
+}

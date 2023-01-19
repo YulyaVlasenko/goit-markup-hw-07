@@ -1,0 +1,9 @@
+/* Duties */
+
+.duties__card-set {
+    display: flex;
+}
+
+.duties .duty-card + .duty-card {
+    margin-left: 30px;
+}
